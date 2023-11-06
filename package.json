@@ -1,0 +1,25 @@
+{
+	"name": "@hyperupcall/check-repositories",
+	"version": "0.1.0",
+	"type": "module",
+	"description": "",
+	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com/)",
+	"license": "MPL-2.0",
+	"private": true,
+	"main": "index.js",
+	"keywords": [],
+	"scripts": {
+		"start": "node --env-file=.env main.js"
+	},
+	"dependencies": {
+		"@octokit/rest": "^20.0.1",
+		"execa": "^8.0.1",
+		"globby": "^13.2.2",
+		"micromatch": "^4.0.5"
+	},
+	"devDependencies": {
+		"@hyperupcall/prettier-config": "^0.7.0",
+		"prettier": "^3.0.3",
+		"prettier-plugin-pkg": "^0.18.0"
+	}
+}
